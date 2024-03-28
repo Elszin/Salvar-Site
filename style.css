@@ -10,7 +10,7 @@ body {
 header {
     background-color: black;
     height: 200px;
-    color: #f00808;
+    color: #f7f7f7;
     padding: 10px;
 }
 
@@ -20,13 +20,23 @@ header {
 }
 
 .header-dois {
-    background-color: #332b2b;
+    background-color: #0e0d0d;
     height: 50px;
-    width: 2000px;
-    color: blue;
+    width: 1350px;
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 219px;
     left: 0px;
+}
+
+.header-tres {
+    background-color: #0e0d0d;
+    height: 400px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 300px;
+    left: 10px;
 }
 
 .search-box {
@@ -48,7 +58,7 @@ header {
     width: 40%;
 }
 
-.loupe-azul {
+.lupa-azul {
     width: 40%;
 }
 
@@ -95,3 +105,29 @@ header {
     color: #f00808;
 }
 
+p {
+    text-align: center;
+  }
+
+h1 {
+    position: absolute;
+    top: 30px;
+    left: 260px;
+}
+
+.footer {
+    color: white;
+    padding: 20px;
+    background-color:#0e0d0d;
+    height: 30px;
+    width: 1300px;
+    position: absolute;
+    top: 800px;
+    left: 0px;
+}
+
+#header-dois a {
+    text-decoration: none;
+    color: blue;
+    margin-right: 20px;
+}
